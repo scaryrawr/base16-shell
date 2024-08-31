@@ -1,7 +1,7 @@
 #!/bin/sh
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
-# Tomorrow Night scheme by Chris Kempson (http://chriskempson.com)
+# Tomorrow Night Eighties scheme by Chris Kempson (http://chriskempson.com)
 export BASE16_THEME=tomorrow-night-eighties
 
 color00="2d/2d/2d" # Base 00 - Black

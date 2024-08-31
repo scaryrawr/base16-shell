@@ -8,11 +8,11 @@ color00="00/26/35" # Base 00 - Black
 color01="ff/5a/67" # Base 08 - Red
 color02="7f/c0/6e" # Base 0B - Green
 color03="ff/cc/1b" # Base 0A - Yellow
-color04="5d/d7/b9" # Base 0D - Blue
+color04="14/74/7e" # Base 0D - Blue
 color05="9a/70/a4" # Base 0E - Magenta
-color06="14/74/7e" # Base 0C - Cyan
+color06="5d/d7/b9" # Base 0C - Cyan
 color07="a1/a1/9a" # Base 05 - White
-color08="6C/8B/91" # Base 03 - Bright Black
+color08="6c/8b/91" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
@@ -23,7 +23,7 @@ color15="fa/fa/f8" # Base 07 - Bright White
 color16="f0/8e/48" # Base 09
 color17="c4/30/60" # Base 0F
 color18="00/38/4d" # Base 01
-color19="51/7F/8D" # Base 02
+color19="51/7f/8d" # Base 02
 color20="86/96/96" # Base 04
 color21="e6/e6/dc" # Base 06
 color_foreground="a1/a1/9a" # Base 05
@@ -82,7 +82,7 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   put_template_custom Pg a1a19a # foreground
   put_template_custom Ph 002635 # background
   put_template_custom Pi a1a19a # bold color
-  put_template_custom Pj 517F8D # selection color
+  put_template_custom Pj 517f8d # selection color
   put_template_custom Pk a1a19a # selected text color
   put_template_custom Pl a1a19a # cursor
   put_template_custom Pm 002635 # cursor text
