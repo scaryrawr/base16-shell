@@ -23,7 +23,7 @@ jobs:
           path: schemes
 
       - name: Base16 Builder Go
-        uses: tinted-theming/base16-builder-go@v0.3.0
+        uses: tinted-theming/base16-builder-go@v0.3.1
         with:
           path: schemes
 
