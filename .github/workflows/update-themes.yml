@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Base16 Builder Go
-        uses: tinted-theming/base16-builder-go@v0.3.1
+        uses: tinted-theming/base16-builder-go@latest
 
       - name: commit & push changes
         run: |
