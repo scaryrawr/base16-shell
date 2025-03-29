@@ -32,3 +32,5 @@ jobs:
             git push -u origin $new_branch
             gh pr create -B master --title 'Update color themes' --body 'Created by Github action' -a scaryrawr
           )
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
