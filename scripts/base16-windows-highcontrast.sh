@@ -1,7 +1,7 @@
 #!/bin/sh
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
-# Windows High Contrast scheme by Fergus Collins (https://github.com/C-Fergus)
+# Windows High Contrast scheme by Fergus Collins (https://github.com/ferguscollins)
 export BASE16_THEME=windows-highcontrast
 
 color00="00/00/00" # Base 00 - Black
