@@ -1,12 +1,12 @@
 #!/bin/sh
 # base16-shell (https://github.com/chriskempson/base16-shell)
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
-# Ayu Dark scheme by Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+# Ayu Dark scheme by Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
 export BASE16_THEME=ayu-dark
 
-color00="0f/14/19" # Base 00 - Black
+color00="0b/0e/14" # Base 00 - Black
 color01="f0/71/78" # Base 08 - Red
-color02="b8/cc/52" # Base 0B - Green
+color02="aa/d9/4c" # Base 0B - Green
 color03="ff/b4/54" # Base 0A - Yellow
 color04="59/c2/ff" # Base 0D - Blue
 color05="d2/a6/ff" # Base 0E - Magenta
@@ -19,15 +19,15 @@ color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="f3/f4/f5" # Base 07 - Bright White
+color15="f2/f0/e7" # Base 07 - Bright White
 color16="ff/8f/40" # Base 09
-color17="e6/b6/73" # Base 0F
+color17="e6/b4/50" # Base 0F
 color18="13/17/21" # Base 01
-color19="27/2d/38" # Base 02
+color19="20/22/29" # Base 02
 color20="bf/bd/b6" # Base 04
-color21="e6/e1/cf" # Base 06
+color21="ec/e8/db" # Base 06
 color_foreground="e6/e1/cf" # Base 05
-color_background="0f/14/19" # Base 00
+color_background="0b/0e/14" # Base 00
 
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
@@ -80,12 +80,12 @@ put_template 21 $color21
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
   put_template_custom Pg e6e1cf # foreground
-  put_template_custom Ph 0f1419 # background
+  put_template_custom Ph 0b0e14 # background
   put_template_custom Pi e6e1cf # bold color
-  put_template_custom Pj 272d38 # selection color
+  put_template_custom Pj 202229 # selection color
   put_template_custom Pk e6e1cf # selected text color
   put_template_custom Pl e6e1cf # cursor
-  put_template_custom Pm 0f1419 # cursor text
+  put_template_custom Pm 0b0e14 # cursor text
 else
   put_template_var 10 $color_foreground
   if [ "$BASE16_SHELL_SET_BACKGROUND" != false ]; then
